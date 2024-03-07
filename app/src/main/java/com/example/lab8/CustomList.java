@@ -69,5 +69,14 @@ public class CustomList extends ArrayAdapter<City> {
         cities.remove(city);
     }
 
+    /*
+    This checks for city object in list
+    *we have not added functionality
+    *test will fail
+    *@param city
+     */
+    public boolean hasCity(City city) {
+        return false;
+    }
 
 }
