@@ -59,4 +59,13 @@ public class CustomList extends ArrayAdapter<City> {
         cities.add(city);
     }
 
+    /*
+    This deletes city object from list
+    *we have not added functionality
+    *test will fail
+    *@param city
+     */
+    public void deleteCity(City city) {
+
+    }
 }
