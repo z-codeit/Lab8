@@ -82,10 +82,10 @@ public class CustomList extends ArrayAdapter<City> {
 
     /*
     This retrieves number of cities in list
-    *we have not added functionality
-    *test will fail
+    *we have added functionality
+    *test will pass
      */
     public int cityCount() {
-        return 0;
+        return this.getCount();
     }
 }
