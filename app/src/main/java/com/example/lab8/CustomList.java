@@ -51,11 +51,12 @@ public class CustomList extends ArrayAdapter<City> {
 
     /*
     This adds city object to list
-    *for the first phase it will be empty
+    *we have added functionality
+    *test will pass
     *@param city
      */
     public void addCity(City city){
-        //cities.add(city);
+        cities.add(city);
     }
 
 }
