@@ -71,12 +71,12 @@ public class CustomList extends ArrayAdapter<City> {
 
     /*
     This checks for city object in list
-    *we have not added functionality
-    *test will fail
+    *we have added functionality
+    *test will pass
     *@param city
      */
     public boolean hasCity(City city) {
-        return false;
+        return cities.contains(city);
     }
 
 }
